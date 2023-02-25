@@ -1,0 +1,75 @@
+.text-large {
+    font-size: 200%;
+}
+
+
+.line {
+
+    width: 200px;
+    border-bottom: 5px solid white;
+}
+
+.line-dark {
+    width: 95px;
+    border-bottom: 3px solid rgb(10, 6, 43);
+}
+
+.line-light {
+    width: 100px;
+    border-bottom: 3px solid white;
+}
+
+.preline {
+    white-space: pre-line;
+}
+
+
+input {
+    outline: 0;
+    border:0;
+    border-bottom: 1px solid gray ;
+    margin-top:10px;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+
+i {
+    margin: 8px;
+}
+
+a:hover
+{
+
+    cursor: pointer;
+}
+
+
+
+/*= input focus effects css
+=========================== */
+:focus{outline: none;}
+
+.col-3{float: left; width: 80%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+
+.effect-16 {border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
+
+.effect-16 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: rgb(32, 120, 32); transition: 0.4s;}
+.effect-16:focus ~ .focus-border,
+.has-content.effect-16 ~ .focus-border{width: 100%; transition: 0.4s;}
+.effect-16 ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+.effect-16:focus ~ label, .has-content.effect-16 ~ label{top: -16px; font-size: 12px; color: #333; transition: 0.3s;}
+
+
+
+
+
+
+
+
+
+
+/*= input focus effects css End
+=============================== */
